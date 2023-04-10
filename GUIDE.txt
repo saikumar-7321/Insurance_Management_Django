@@ -1,0 +1,12 @@
+For first time users:
+1. Open cmd all the directory containing the project  files/folder.
+2. Download all the requirement using the command:
+	pip install -r requirements.txt
+3. Run the command python manage.py migrate
+4. For creating an admin login:
+	use the command   python manage.py createsuperuser
+5. Finally use the command to open the server.
+	python manage.py runserver
+
+
+NOTE: to close the server via cmd use Ctrl+C
